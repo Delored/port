@@ -1,14 +1,14 @@
 [
   {
     "type": "container",
-    "title": "Registry",
-    "description": "Docker image registry",
+    "title": "Gitea",
+    "description": "Git with a cup of tea",
     "categories": ["docker"],
-    "platform": "linux",
-    "logo": "https://cloudinovasi.id/assets/img/logos/registry.png",
-    "image": "registry:latest",
+    "platform": "linux-orange-pi",
+    "logo": "https://gitea.io/images/gitea.png",
+    "image": "registry.fordelors.net.ua/gitea",
     "ports": [
-      "5000/tcp"
+      "3000/tcp"
     ]
   }
 ]
